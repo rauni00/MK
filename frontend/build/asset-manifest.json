@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ca0c5f88.css",
+    "main.js": "/static/js/main.5de77e59.js",
+    "static/js/787.cda612ba.chunk.js": "/static/js/787.cda612ba.chunk.js",
+    "static/media/image2.jpg": "/static/media/image2.f26aeb0509496ca10052.jpg",
+    "static/media/about.jpg": "/static/media/about.002bd1a155bdc5e831d1.jpg",
+    "static/media/landingImage.jpg": "/static/media/landingImage.2d48a88cedfcd15b3075.jpg",
+    "static/media/image4.jpg": "/static/media/image4.a247e7f0ee4a9adf9552.jpg",
+    "static/media/image3.jpg": "/static/media/image3.5b0345c8808665370987.jpg",
+    "static/media/panir.jpg": "/static/media/panir.4f1600a68adbda7e0ed6.jpg",
+    "static/media/image1.jpg": "/static/media/image1.efb5aee3c915774eb26a.jpg",
+    "static/media/Biryani.jpg": "/static/media/Biryani.ce0d947d5ba5c59f90d7.jpg",
+    "static/media/papa.jpg": "/static/media/papa.ff372a87e43547fe358b.jpg",
+    "static/media/spinner.gif": "/static/media/spinner.4136a67a8418a25d2ee1.gif",
+    "static/media/rahul.jpg": "/static/media/rahul.76ddbc79cc0114d7f612.jpg",
+    "static/media/invest.jpg": "/static/media/invest.7c08b9d40775d8c73f3c.jpg",
+    "static/media/momos.jpg": "/static/media/momos.e5b5a7f8b178810811e3.jpg",
+    "static/media/mummy.jpeg": "/static/media/mummy.80f492121b22273f0da9.jpeg",
+    "index.html": "/index.html",
+    "main.ca0c5f88.css.map": "/static/css/main.ca0c5f88.css.map",
+    "main.5de77e59.js.map": "/static/js/main.5de77e59.js.map",
+    "787.cda612ba.chunk.js.map": "/static/js/787.cda612ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ca0c5f88.css",
+    "static/js/main.5de77e59.js"
+  ]
+}
