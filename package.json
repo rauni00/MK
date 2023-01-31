@@ -5,7 +5,7 @@
     "main": "server.js",
     "scripts": {
         "frontend": "npm start --prefix frontend",
-        "build": "./node_modules/.bin/netlify-lambda build server.js",
+        "build": "./node_modules/.bin/netlify-lambda build server",
         "start": "concurrently \"./node_modules/.bin/netlify-lambda serve server.js\" \"npm run frontend\""
     },
     "keywords": [],
