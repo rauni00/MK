@@ -3,10 +3,10 @@ const mongoose = require("mongoose");
 const bodyParser = require("body-parser");
 const passport = require("passport");
 const app = express();
-const users = require("./route/api/users");
-const dish = require("./route/api/dish");
-const category = require("./route/api/category");
-const cart = require("./route/api/cart");
+const users = require("../route/api/users");
+const dish = require("../route/api/dish");
+const category = require("../route/api/category");
+const cart = require("../route/api/cart");
 const serverless = require("serverless-http");
 
 // const addCategory = require('./route/api/addCategory');
@@ -15,7 +15,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 // DB Config
-const db = require("./config/keys").mongoUri;
+const db = require("../config/keys").mongoUri;
 // Connect to MongoDB
 mongoose
 	.connect(db)
@@ -26,7 +26,7 @@ mongoose
 app.use(passport.initialize());
 
 // Passport config
-require("./config/passport")(passport);
+require("../config/passport")(passport);
 app.get("/", (req, res) => res.send("<h1>HELLO WORLD</h1> "));
 
 app.use("/api/users", users);
